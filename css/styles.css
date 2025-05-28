@@ -1,0 +1,283 @@
+
+.hero-section {
+    position: relative;
+    background-image: url("../image/cerditos\ 1.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.custom-header {
+    background-color: transparent;
+    color: #000 !important;
+    /* Texto en negro */
+}
+
+.custom-header h2 {
+    color: #000 !important;
+    /* Asegura el color del h2 */
+}
+
+.custom-header a {
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.search-box i {
+    color: #000 !important;
+    /* Ícono de lupa en negro */
+}
+
+.search-box input {
+    color: #000 !important;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+}
+
+.sub-menu {
+  background-color: #198754; /* Verde Bootstrap */
+  height: 60px; /* Altura tipo cajero */
+}
+
+.sub-menu a {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.sub-menu i {
+    color: #fff;
+
+}
+
+
+.hero {
+    position: relative;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.hero h1 span {
+    color: #87e660;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.hero .btn {
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #3ecf4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #36b843;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.hero h1 span {
+    color: #87e660;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.hero .btn {
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #3ecf4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #36b843;
+}
+
+
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 60px 40px;
+    background-color: #f8f9fa;
+    /* Fondo claro */
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex: 1 1 250px;
+    max-width: 280px;
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card h3 {
+    color: #198754;
+    /* Verde Bootstrap */
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.card img {
+    width:100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #dddd;
+}
+
+
+.contact-section {
+    background: #f8f9fa;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1c3f52;
+    text-transform: uppercase;
+}
+
+.contact-info {
+    font-size: 1rem;
+    background-color: #ffffff;
+    border-left: 5px solid #198754;
+    /* Verde institucional */
+}
+
+.contact-info i {
+    color: #198754;
+}
+
+.map-container iframe {
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
+}
+
+footer p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item {
+            height: 400px;
+        }
+        .carousel-item img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+        .carousel-caption {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+#registro h2 {
+    color: #14532d;
+    font-weight: bold;
+}
+
+#registro .form-control:focus {
+    border-color: #198754;
+    box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+}
+
+
+
+
+
+
+
+
+

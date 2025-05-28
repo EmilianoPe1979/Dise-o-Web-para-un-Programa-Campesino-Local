@@ -1,0 +1,59 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/utilities";
+
+$lifecolors: #6600ff;
+
+
+
+// Extender utilidades (custom colores + paleta tonal completa)
+// $all-colors: map-merge-multiple(
+//     $grays,
+//     $blues,
+//     $indigos,
+//     $purples,
+//     $pinks,
+//     $reds,
+//     $oranges,
+//     $yellows,
+//     $greens,
+//     $teals,
+//     $cyans
+//     );
+
+$theme-colors: map-merge(
+    $theme-colors,
+    (
+        "lifecolors": $lifecolors,
+    )
+);
+
+
+$utilities: map-merge(
+    $utilities,
+    (
+        "background-color": (
+            property: background-color,
+            class: bg,
+            values: (
+                "lifecolors": $lifecolors, 
+            ),
+        ),
+    )
+);
+
+
+// Generar variantes para botones personalizados
+// @each $name, $color in $theme-colors {
+//   .btn-#{$name} {
+//     @include button-variant($color, $color);
+//   }
+//   .btn-outline-#{$name} {
+//     @include button-outline-variant($color);
+//   }
+// }
+
+// Compilar Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
